@@ -1,0 +1,39 @@
+
+<h1>Citireviews Review for </h1>
+<p>
+  <strong>Name:</strong>
+  <%= @review.name %>
+</p>
+ 
+<p>
+  <strong>Description:</strong>
+  <%= @review.description %>
+</p>
+<br/>
+<strong><i>Comments for this review:</i></strong>
+<% @review.comments.each do |comment| %>
+  <p>
+    <strong>Commenter:</strong>
+    <%= comment.commenter %>
+  </p>
+ 
+  <p>
+    <strong>Comment:</strong>
+    <%= comment.body %>
+  </p>
+<% end %>
+
+<h2>Write your comment:</h2>
+<%= form_with(model: [ @review, @review.comments.build ], local: true) do |form| %>
+  <p>
+    <%= form.label :commenter %><br>
+    <%= form.text_field :commenter %>
+  </p>
+  <p>
+    <%= form.label :body %><br>
+    <%= form.text_area :body %>
+  </p>
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>

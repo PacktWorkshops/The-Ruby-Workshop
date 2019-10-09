@@ -1,0 +1,7 @@
+puts "***"
+puts "*****"
+puts "*******"
+puts "Hello World"
+puts "*******"
+puts "*****"
+puts "***"

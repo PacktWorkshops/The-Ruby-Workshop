@@ -1,0 +1,23 @@
+<h1>All the Reviews</h1>
+<table>
+  <tr>
+    <th>No</th>
+    <th>Name</th>
+    <th></th>
+</tr>
+
+<% @reviews.each_with_index do |review, index| %>
+  <tr>
+    <td><%= index+1 %></td>
+    <td><%= review.name %></td>
+    <td><%= link_to 'Details', review_path(review) %></td>
+  </tr>
+ <% end %>
+</table>
+
+<h1>Welcome to Citireviews</h1>
+<%= link_to 'All Reviews', controller: 'reviews' %> <br/><br/>
+<%= link_to 'Add new review', new_review_path %>
+
+<%= link_to 'Back', root_path %>
+

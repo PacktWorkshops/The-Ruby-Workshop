@@ -1,0 +1,1 @@
+File.read("company.txt")
