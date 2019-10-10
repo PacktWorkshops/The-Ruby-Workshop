@@ -1,4 +1,3 @@
-
 <h1>Citireviews Review for </h1>
 <p>
   <strong>Name:</strong>
@@ -9,7 +8,6 @@
   <strong>Description:</strong>
   <%= @review.description %>
 </p>
-
 <h2>Write your comment:</h2>
 <%= form_with(model: [ @review, @review.comments.build ], local: true) do
 |form| %>
