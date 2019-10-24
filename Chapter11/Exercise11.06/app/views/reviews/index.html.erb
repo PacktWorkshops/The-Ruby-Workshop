@@ -1,0 +1,18 @@
+﻿<h1>All the Reviews</h1>
+<table>
+  <tr>
+    <th>No</th>
+    <th>Name</th>
+    <th></th>
+  </tr>
+
+  <% @reviews.each_with_index do |review, index| %>
+    <tr>
+      <td><%= index+1 %></td>
+      <td><%= review.name %></td>
+      <td><%= link_to 'Details', review_path(review) %></td>
+    </tr>
+  <% end %>
+</table>
+
+<%= link_to 'Back', root_path %>
