@@ -1,4 +1,8 @@
 require 'logger'
-
-logger = Logger.new("log.txt", 5, 100)
-logger.debug("Testing Log Rollover")
+logger = Logger.new(STDOUT)
+logger.info("Starting Application")
+begin
+  0 / 0
+rescue StandardError => e
+  logger.error(e.message)
+end
