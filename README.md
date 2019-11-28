@@ -3,7 +3,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/TrainingByPackt/The-Ruby-Workshop.svg)](https://github.com/TrainingByPackt/The-Ruby-Workshop/network)
 [![GitHub stars](https://img.shields.io/github/stars/TrainingByPackt/The-Ruby-Workshop.svg)](https://github.com/TrainingByPackt/The-Ruby-Workshop/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TrainingByPackt/The-Ruby-Workshop/pulls)
-[![Ruby 2.6](https://img.shields.io/badge/Ruby-2.6-blue.svg)](https://docs.oracle.com/en/java/javase/12/install/installation-jdk-microsoft-windows-platforms.html#GUID-A7E27B90-A28D-4237-9383-A58B416071CA)
+[![Ruby 2.6](https://img.shields.io/badge/Ruby-2.6-blue.svg)](https://rubyinstaller.org/)
 
 This is the repository for [The Ruby Workshop](https://courses.packtpub.com/courses/ruby?utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the course from start to finish.
 
