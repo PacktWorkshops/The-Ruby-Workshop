@@ -10,8 +10,9 @@ This is the repository for [The Ruby Workshop](https://www.amazon.com/Ruby-Works
 ## Requirements and Setup
 <a href="https://www.amazon.com/Ruby-Workshop-Interactive-Approach-Learning-dp-1838642366/dp/1838642366/ref=mt_other?_encoding=UTF8&me=&qid=1611065340&utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/The%20Ruby%20Workshop.png" alt="The Ruby Workshop" height="270px" width="220px" align="right" this.target="_blank"></a>
 
-To get started with the project files, you'll need to:
-1. Install Ruby on [Windows](https://rubyinstaller.org/), [Linux/macOS](http://rvm.io/)
+To get started with the project files, you'll need to install Ruby on:
+* [Windows](https://rubyinstaller.org/)
+* [Linux/macOS](http://rvm.io/)
 
 ## About The Ruby Workshop
 [The Ruby Workshop](https://www.amazon.com/Ruby-Workshop-Interactive-Approach-Learning-dp-1838642366/dp/1838642366/ref=mt_other?_encoding=UTF8&me=&qid=1611065340&utm_source=github&utm_medium=repository&utm_campaign=9781838642365&utm_term=Ruby&utm_content=The%20Ruby%20Workshop) equips you with the real-world skills that you can apply to your own web application development projects. Whether you want to create a web application, write simple scripts, manipulate data, or just learn the basics of object-oriented programming, this book will quickly get you on the right track.
